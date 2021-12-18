@@ -1,0 +1,154 @@
+#left {
+	color: white;
+	background-color: #5271ff;
+	font-size: 14px;
+	font-family: Helvetica;
+	float: left;
+	width: 20%;
+	height: 110%;
+	margin-top: -10px;
+}
+
+h1 {
+	font-size: 35px;
+	margin-bottom: -10px;
+}
+h2 {
+	font-size: 40px;
+	font-family: Helvetica;
+	color: white;
+	padding-left: 20px;
+}
+
+#short-title, #short-description{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	padding-right: 5px;
+	padding-top: 0px;
+	padding-left: 5px;
+	padding-bottom: 0px;
+	width: 70%;
+	border: 1px solid white;
+}
+
+#short-title {
+	font-size: 24px;
+}
+
+#short-description {
+	font-size: 20px;
+}
+
+#sources {
+	font-size: 20px;
+}
+
+#center {
+	float: left;
+	width: 60%;
+	height: 110%;
+	margin-top: -10px;
+}
+
+body{
+	background-color: #b4c7e7;
+}
+
+#title-image, #index-image{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	width: 65%;
+    box-shadow: 10px 10px 5px #8492a9;
+    -moz-box-shadow: 10px 10px 5px #8492a9;
+    -webkit-box-shadow: 10px 10px 5px #8492a9;
+    -khtml-box-shadow: 10px 10px 5px #8492a9;
+}
+
+#right {
+	float: left;
+	right: 100 px;
+	height: 110%;
+	margin-top: -10px;
+	width: 20%;
+}
+
+#main-container{
+	clear: both;
+}
+
+.container{
+	box-sizing: border-box;
+}
+
+li, a {
+	color: white;
+}
+
+#sources {
+	background-color: #5271ff;
+	margin-top: 60px;
+	margin-right: 45px;
+	padding: 10px;
+}
+
+#navigation-link {
+	background-color: #5271ff;
+	margin-top: 60px;
+	margin-right: 45px;
+	padding: 10px;
+}
+
+#navigation-link div {
+	border: 1px solid white;
+	border-radius: 25px;
+	margin: 10px;
+	padding: 5px;
+	font-size: 24px;
+	text-align: center;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+#left img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	padding-left: 40px;
+	width: 110%;
+    box-shadow: 10px 10px 5px #8492a9;
+    -moz-box-shadow: 10px 10px 5px #8492a9;
+    -webkit-box-shadow: 10px 10px 5px #8492a9;
+    -khtml-box-shadow: 10px 10px 5px #8492a9;
+}
+	
+#history-content {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 75px;
+	width: 45%;
+	background-color: #5271ff;
+	color: white;
+	font-family: Helvetica;
+	font-size: 20px;
+}
+
+#history-content p {
+	padding: 5px;
+	text-align: justify;
+}
+
+#history-image {
+	display: block;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -6px;
+}

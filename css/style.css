@@ -1,0 +1,67 @@
+* {
+	font-size: 22px;
+  box-sizing: border-box;
+}
+
+header{
+ width: 100%;
+ margin:0px;
+}
+
+#index-header-image{
+ width: 100%;
+}
+ 
+.navigation-ul {
+  
+  float: left;
+  list-style-type: none;
+  z-index: 5;
+  
+}
+
+.header-nav{
+ margin-left: auto;
+ margin-right: auto;
+
+}
+
+.header-navigation-a {
+  display: block;
+  text-decoration: none;
+  padding: 8px;
+  background-color:  #5271ff;
+  color: white;
+  border: 2px solid white;
+}
+
+.header-navigation-a:hover{
+ font-size: 110%;
+ color: lightskyblue;
+ 
+}
+
+
+
+
+
+/* Create three equal columns that floats next to each other */
+section {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}

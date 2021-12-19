@@ -1,67 +1,65 @@
 * {
-	font-size: 22px;
+  font-size: 22px;
   box-sizing: border-box;
 }
 
-header{
- width: 100%;
- margin:0px;
+header {
+  width: 100%;
+  margin: 0px;
 }
 
-#index-header-image{
- width: 100%;
+#index-header-image {
+  width: 100%;
+  z-index: -1;
 }
- 
-.navigation-ul {
-  
+
+.navigation-li {
   float: left;
   list-style-type: none;
-  z-index: 5;
-  
 }
 
-.header-nav{
- margin-left: auto;
- margin-right: auto;
+#navigation-ul {
+  margin-top: -5%;
+}
 
+.header-nav {
+  float: right;
+  position: relative;
+  z-index: 3;
 }
 
 .header-navigation-a {
+  position: relative;
   display: block;
   text-decoration: none;
-  padding: 8px;
-  background-color:  #5271ff;
+  padding: 4px;
+  background-color: #5271ff;
   color: white;
-  border: 2px solid white;
+  border: 1px solid transparent;
+  border-radius: 22px;
+  font-size: 80%;
+  padding-top: 1000 px;
+  max-width: 300px;
+  text-align: center;
+  z-index: 3;
 }
 
-.header-navigation-a:hover{
- font-size: 110%;
- color: lightskyblue;
- 
+.header-navigation-a:hover {
+  font-size: 110%;
+  color: lightskyblue;
+  border-color: #fff;
 }
-
-
-
-
 
 /* Create three equal columns that floats next to each other */
 section {
   float: left;
   width: 33.33%;
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
 }
 
 /* Clear floats after the columns */
 .row:after {
-  content: "";
+  content: '';
   display: table;
   clear: both;
-}
-
-@media (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
 }
